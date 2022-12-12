@@ -96,6 +96,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service
+	
+# Configstore
+PRODUCT_PACKAGES += \
+    android.hardware.configstore@1.0-service \
+    android.hardware.configstore@1.1-service
 
 PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
